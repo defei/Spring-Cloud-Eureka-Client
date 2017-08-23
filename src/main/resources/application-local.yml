@@ -6,4 +6,4 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://localhost:18000/eureka/
+      defaultZone: http://user:codelogger@localhost:18000/eureka/
