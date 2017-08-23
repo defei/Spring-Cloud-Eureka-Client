@@ -1,0 +1,9 @@
+server:
+  port: 18001
+eureka:
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:18000/eureka/
